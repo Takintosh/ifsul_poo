@@ -1,6 +1,6 @@
-package lista1;
+package lista1.ex1;
 
-public class perro extends animal {
+public class caballo extends animal {
 
     String correr;
 

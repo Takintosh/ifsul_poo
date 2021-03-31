@@ -1,4 +1,4 @@
-package lista1;
+package lista1.ex1;
 
 public class perezoso extends animal {
 

@@ -1,4 +1,4 @@
-package lista1;
+package lista1.ex1;
 import java.util.ArrayList;
 import java.util.Scanner;
 
