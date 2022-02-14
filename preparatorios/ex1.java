@@ -59,7 +59,7 @@ public class ex1 {
             }
         }
 
-        bebida.construtor(nome, custo, descricao, estoque);
+        new bebida(nome, custo, descricao, estoque);
 
         bebida.mostrar();
 

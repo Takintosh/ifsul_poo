@@ -61,7 +61,7 @@ public class bebida {
         return ("Estoque atualizado. Estoque atual: " + bebida.estoque);
     }
 
-    public static void construtor(String nome, Float preco, String descricao, int estoque) {
+    public bebida(String nome, Float preco, String descricao, int estoque) {
         setNome(nome);
         setCusto(preco);
         setDescricao(descricao);
