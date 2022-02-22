@@ -15,7 +15,6 @@ public class ex1 {
             try {
                 System.out.print("\nIngresse o nome do produto: ");
                 input = new Scanner(System.in);
-                //bebida.setNome(input.nextLine());
                 nome = input.nextLine();
                 break;
             } catch (InputMismatchException e) {
@@ -27,7 +26,6 @@ public class ex1 {
             try {
                 System.out.print("\nIngresse o custo do produto: ");
                 input = new Scanner(System.in);
-                //bebida.setCusto(input.nextFloat());
                 custo = input.nextFloat();
                 break;
             } catch (InputMismatchException e) {
@@ -39,7 +37,6 @@ public class ex1 {
             try {
                 System.out.print("\nIngresse o descriçao do produto: ");
                 input = new Scanner(System.in);
-                //bebida.setDescricao(input.nextLine());
                 descricao = input.nextLine();
                 break;
             } catch (InputMismatchException e) {
@@ -51,7 +48,6 @@ public class ex1 {
             try {
                 System.out.print("\nIngresse o estoque do produto: ");
                 input = new Scanner(System.in);
-                //bebida.setEstoque(input.nextInt());
                 estoque = input.nextInt();
                 break;
             } catch (InputMismatchException e) {
