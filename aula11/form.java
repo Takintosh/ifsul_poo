@@ -107,7 +107,6 @@ public class form extends JFrame implements ActionListener {
             try {
                 JTextField src = (JTextField)focusEvent.getSource();
                 if (src.getText().equals("")) {
-                    //src.setText("");
                     src.setBackground(new Color(255,255,255));
                 }
             } catch (ClassCastException ignored) {
@@ -119,7 +118,6 @@ public class form extends JFrame implements ActionListener {
             try {
                 JTextField src = (JTextField)focusEvent.getSource();
                 if (src.getText().equals("")) {
-                    //src.setText("Campo vazío!!");
                     src.setBackground(new Color(255,0,0));
                 }
             } catch (ClassCastException ignored) {
